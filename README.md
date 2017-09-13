@@ -2,7 +2,7 @@
 
 Search for Wikipedia entries
 
-[Live Application](wikipedia-viewer-dlzl.surge.sh)
+[Live Application](https://wikipedia-viewer-dlzl.surge.sh)
 
 ### Project Goals
 
