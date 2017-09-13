@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+
+<body>
+	<div id="container" class="container text-center center">
+		<header>
+			<h1 title="Wikipedia Search" id="title"><strong>Wikipedia Search</strong></h1>
+		</header>
+		<form id="searchForm">
+			<div class="form-group">
+				<input type="search" id="searchText" size="50" name="query" placeholder="Search" />
+				<input type="submit" id="searchButton" title="Search Wikipedia for Article" value="&#9906;" class="btn btn-primary">
+			</div>
+		</form>
+		<div id="random">
+			<a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-default" role="button" title="Random Article">Random Article</a>
+		</div>
+		<div id="result"></div>
+		<footer class="text-center">
+			<a href="https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer" target="_blank" title="FreeCodeCamp Challenge Instructions"><strong>Credit</strong></a>
+		</footer>
+	</div>
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+
+</html>

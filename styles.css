@@ -1,0 +1,37 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#result {
+    display: none;
+}
+
+.center {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+}
+
+input {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+header {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer>a:link, footer>a:visited, footer>a:hover, footer>a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+header:hover {
+    cursor: pointer;
+}
