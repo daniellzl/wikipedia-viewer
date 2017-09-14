@@ -1,37 +1,37 @@
 body {
-    font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #result {
-    display: none;
+  display: none;
 }
 
 .center {
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    position: absolute;
+  bottom: 50%;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 
 input {
-    display: inline;
-    margin-bottom: 5px;
+  display: inline;
+  margin-bottom: 5px;
 }
 
 header {
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 footer {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 footer>a:link, footer>a:visited, footer>a:hover, footer>a:active {
-    text-decoration: none;
-    color: #000000;
+  color: #000000;
+  text-decoration: none;
 }
 
 header:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
